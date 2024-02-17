@@ -4,3 +4,7 @@ plotly==5.15.0
 plotly-express==0.4.1
 ipywidgets
 jupyter 
+shiny==0.7.0
+ridgeplot
+faicons
+shinywidgets
