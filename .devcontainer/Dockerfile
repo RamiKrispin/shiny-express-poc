@@ -20,10 +20,8 @@ RUN bash ./requirements/install_quarto.sh $QUARTO_VER
 
 
 # Install dependencies
-RUN echo "t"
 COPY requirements.txt install_requirements.sh requirements/
 RUN bash requirements/install_requirements.sh $ENV_NAME $PYTHON_VER
-# RUN ["chmod -R 755",  "/opt/conda/envs/shiny-express/bin/shiny"]
 
 # Copy the app
 RUN mkdir my_app
