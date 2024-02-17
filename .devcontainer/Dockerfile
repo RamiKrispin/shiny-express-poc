@@ -31,8 +31,5 @@ COPY app.py my_app/
 
 ENV PATH="/opt/conda/envs/shiny-express/bin:$PATH"
 
-
-
-
 CMD shiny run --host 0.0.0.0 --port 8080 /my_app/app.py
 EXPOSE 8080
